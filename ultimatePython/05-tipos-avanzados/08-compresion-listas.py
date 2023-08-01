@@ -17,6 +17,8 @@ nombres = [usuario[1] for usuario in usuarios if usuario[0] > 2]
 print(nombres)
 
 # ------------programacion funcional-------------------
+print(usuarios)
+# nombres = list(map(lambda usuario: [usuario[1], usuario[0]], usuarios))
 nombres = list(map(lambda usuario: usuario[1], usuarios))
 print(nombres)
 
